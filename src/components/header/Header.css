@@ -1,0 +1,80 @@
+.header-row {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Header Left and Right Sections */
+  .header-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  
+  /* Button Styling */
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #d6d6d6;
+    color: #0e0d0d;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #8ab2dd;
+  }
+  
+  .reload-btn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .options-btn {
+    background-color: #d9dee2;
+    cursor: pointer;
+  }
+  
+  .options-btn:hover {
+    background-color: #d4d8dd;
+    cursor: pointer;
+  }
+  
+  /* Filter Select Styling */
+  .filter-select {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+  .search-input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-btn {
+    background-color: #88b3e0;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

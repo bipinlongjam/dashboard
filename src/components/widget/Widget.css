@@ -1,0 +1,59 @@
+.dashboard-container .widget-card {
+    width: 360px;
+    margin: 20px 10px;
+  }
+
+.widget-card{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: hsl(100, 43%, 99%) !important;
+    position: relative;
+    height: 230px;
+    width: 400px !important;
+}
+
+.widget-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.widget-card p {
+  margin: 0 0 15px;
+  font-size: 14px;
+  color: #333;
+}
+.widget-name{
+  display: flex;
+  justify-content: flex-start;
+}
+.widget-description{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.add-widget-detail{
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  margin: 60px auto ;
+}
+.widget-category {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.remove-widget-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 18px;
+}

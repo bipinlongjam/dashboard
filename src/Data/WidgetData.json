@@ -1,0 +1,33 @@
+{
+    "categories": [
+      {
+        "name": "CSPM",
+        "widgets": [
+          { "name": "Security Overview", "description": "Displays security metrics" },
+          { "name": "Compliance Status", "description": "Shows compliance status overview" }
+        ]
+      },
+      {
+        "name": "CWPP",
+        "widgets": [
+          { "name": "Workload Protection", "description": "Monitors workload security" },
+          { "name": "Vulnerability Scan", "description": "Scans workloads for vulnerabilities" }
+        ]
+      },
+      {
+        "name": "Image",
+        "widgets": [
+          { "name": "Image Gallery", "description": "Displays a gallery of images" },
+          { "name": "Image Uploader", "description": "Allows users to upload images" }
+        ]
+      },
+      {
+        "name": "Text",
+        "widgets": [
+          { "name": "Rich Text Editor", "description": "A widget for text editing" },
+          { "name": "Markdown Viewer", "description": "Displays markdown formatted text" }
+        ]
+      }
+    ]
+  }
+  

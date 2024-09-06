@@ -1,0 +1,148 @@
+ /* Add Widget Modal Styling */
+ .add-widget-modal {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  .modal-header{
+    padding: 10px 30px;
+    height: 40px;
+    background-color: #0056b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+  }
+  .modal-header p{
+    color: white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:inherit
+  }
+  .close-modal-btn {
+    color: rgb(243, 235, 235);
+    cursor: pointer;
+  }
+  .category-row{
+    display: flex;
+    gap:10px;
+    padding: 0px 15px;
+    justify-content: flex-start; 
+    border-bottom: 1px solid #ccc;
+    width: 275px;
+    position: relative;
+  }
+
+  .category-row li{
+    list-style: none; 
+    color: #acafb1;
+    font-weight: bold;
+  }
+  .category-item{
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  .category-item.selected{
+    color: rgb(27, 95, 197);
+    border-bottom: 1px solid #3a47c4;
+  }
+  .category-item:hover{
+    color: rgb(10, 40, 85);
+  }
+
+  .warning-message {
+    color: rgb(19, 11, 11);
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .widget-list{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+  }
+  .widget-item{
+    display: flex;
+    margin: auto;
+    align-items: flex-start; 
+    padding: 10px 22px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin-bottom: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  .widget-item input[type="checkbox"]{
+    cursor: pointer;
+    transform: scale(1.3);
+    position: relative;
+    align-self: flex-start;
+  }
+  .widget-item:hover{
+    background-color: #f9f9f9;
+  }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 10px;
+  }
+    
+  .modal-content button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .modal-content button:hover {
+    opacity: 0.9;
+  }
+  .modal-footer{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    padding: 20px 20px;
+    margin-top: 260px;
+  }
+  .cancel-btn,
+  .confirm-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #327fc2;
+  color: white;
+}
+
+.confirm-btn {
+  background-color: #3735c2;
+  color: white;
+}
+
+.cancel-btn:hover{
+    opacity: 0.9;
+    background-color: red;
+}
+.confirm-btn:hover {
+  opacity: 0.9;
+  background-color: green;
+}
+ 
